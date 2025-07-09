@@ -114,9 +114,6 @@ main section{
   text-align: center;
   
 }
-.about-title{
-}
-
 .about-items{
   display: flex;
   justify-content: space-around;
@@ -135,13 +132,20 @@ main section{
 .skills-container{
   display: flex;
   gap: 24px;
+ justify-content: center;
+  padding: 0 20px;
+  
+  
+  
 }
 .skill{
   padding: 24px;
   box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
   border-radius: 5px;
-  
-
+  width: 250px;
+  background-color: #ffffff;
+  text-align: left;
+ 
 }
 
 
